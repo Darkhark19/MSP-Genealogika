@@ -27,15 +27,7 @@ var photos = {
     "5tEv7a5A5jL0tcN7vNl9OVcHqtXRbocVr+Kc9k3H/3qPL69Ise7dh0SsS+2JmtFddgvdy/gGbY7Jdp2GRcyrlu1BfUjxt" +
     "iPRm/lqVbGHOMHnU39zQm0I/UbBLA+GVosJHGVrcoWkgEktnoLydYXkF/LiXG21MwAAAAASUVORK5CYII=",
 };
-/*<button
-            key="3"
-            className="StyledButton"
-            onClick={(event) => {
-              event.stopPropagation();
-              setIdP(itemConfig.id);
-              handleShowC();
-            }}
-          ></button>*/
+
 
 type NodeDB = {
   id: string;
@@ -227,7 +219,7 @@ export function TreeHome() {
               handleShowP();
             }}
           >
-            <FontAwesomeIcon icon={faUserPlus} />
+            <FontAwesomeIcon icon={"plus"} />
           </button>
           <button
             key="2"
@@ -237,7 +229,7 @@ export function TreeHome() {
               onRemoveButtonClick(itemConfig.id);
             }}
           >
-            <FontAwesomeIcon icon={faUserSlash} />
+            <FontAwesomeIcon icon={"user-slash"} />
           </button>
           <button
             key="4"
@@ -249,7 +241,7 @@ export function TreeHome() {
               handleShowC();
             }}
           >
-            <FontAwesomeIcon icon={faPlus} />
+            <FontAwesomeIcon icon={"plus"} />
           </button>
           
         </>
